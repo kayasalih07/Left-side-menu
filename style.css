@@ -11,10 +11,10 @@ body {
 .container {
   position: absolute;
   top: 3rem;
-  left: -14rem;
+  left: -10rem;
   padding: 0;
   background-color: orange;
-  width: 20vh;
+  width: 200px;
   height: 50vh;
   transition: 2s;
 }
@@ -47,12 +47,12 @@ i {
   display: block;
   text-align: end;
   position: relative;
-  left: 14.5rem;
-  top: -2rem;
+  left: 5rem;
+  top: 0.4rem;
 }
 
 .container:hover {
-  transform: translate(14rem);
+  transform: translate(10rem);
   transition: 1.8s;
 }
 .container:hover i {
